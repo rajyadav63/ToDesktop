@@ -27,10 +27,10 @@ const Hero = () => {
                 <p className='sm:max-w-[790px]  text-2xl font-normal  mt-4 sm:mt-9 mb-4 sm:text-center sm:ml-9 '>Take your web app codebase and transform it into a cross platform desktop app with native functionality.</p>
             </div>
             <div className='flex justify-center gap-4 flex-col md:flex-row w-full'>
-                <a className='bg-blue-600 px-8 py-3 text-white text-center font-semibold rounded-md' href="#">
+                <a className='bg-blue-600 px-8 py-4 text-white text-center font-semibold rounded-md' href="#">
                     <p>Download now</p>
                 </a>
-                <a className='border-2 border-solid mt-3 sm:mt-0 px-8 py-3 text-center font-normal rounded-md' href="#">
+                <a className='border-2 border-solid mt-1 sm:mt-0 px-8 py-4 text-center font-normal rounded-md' href="#">
                     <p>Read docs</p>
                 </a>
 
