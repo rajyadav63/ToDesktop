@@ -6,12 +6,11 @@ const Nabvar = () => {
     return (
         <div className='flex justify-between items-center text-center bg-blue-100 p-4'>
 
-            <div>
-                <a className='flex justify-center items-center text-center gap-2' href="/">
-                    <img src="/assets/asset 0.png" alt="logo" />
-                    ToDesktop
-                </a>
-            </div>
+            <a className='flex justify-center items-center text-center gap-2' href="/">
+                <img src="/assets/asset 0.png" alt="logo" />
+                <span className='text-1xl font-medium'> ToDesktop</span>
+            </a>
+
             <div className='md:hidden block' onClick={() => setIsMenu(!isMenu)}>
                 <i className="fa-solid fa-bars"></i>
             </div>
@@ -31,7 +30,7 @@ const Nabvar = () => {
                 <button>Electron Developer</button>
                 <i className="fa-solid fa-arrow-right"></i>
             </div>
-    
+
         </div>
     )
 }
