@@ -50,30 +50,32 @@ const Nabvar = () => {
 
                     <ul className='flex flex-col gap-8 font-medium text-center text-xl'>
                         <li className='hover:text-primary transition-colors duration-200'>
-                            <a href="#" onClick={() => setIsMenu(false)}>Pricing</a>
+                            <a href="#">Pricing</a>
                         </li>
                         <li className='hover:text-primary transition-colors duration-200'>
-                            <a href="#" onClick={() => setIsMenu(false)}>Docs</a>
+                            <a href="https://www.todesktop.com/docs/introduction/getting-started" target='_blank'>Docs</a>
                         </li>
                         <li className='hover:text-primary transition-colors duration-200'>
-                            <a href="#" onClick={() => setIsMenu(false)}>Changelog</a>
+                            <a href="https://www.todesktop.com/blog" target='_blank'>Changelog</a>
                         </li>
                         <li className='hover:text-primary transition-colors duration-200'>
-                            <a href="#" onClick={() => setIsMenu(false)}>Blog</a>
+                            <a href="https://www.todesktop.com/blog" target='_blank'>Blog</a>
                         </li>
                         <li className='hover:text-primary transition-colors duration-200'>
-                            <a href="#" onClick={() => setIsMenu(false)}>Login</a>
+                            <a href="#">Login</a>
                         </li>
                     </ul>
 
                     <div className='flex justify-center items-center text-center border-solid border-2 border-blue-900 px-6 py-3 rounded-md gap-3 hover:cursor-pointer mt-8'>
                         <img src="/assets/asset 1.svg" />
-                        <button onClick={() => setIsMenu(false)}>Electron Developer</button>
+                        <a href="https://www.todesktop.com/electron" target='_blank'>
+                            <button>Electron Developer</button>
+                        </a>
                         <i className="fa-solid fa-arrow-right"></i>
                     </div>
 
-                </div>
-            </div>
+                </div >
+            </div >
 
 
         </>
