@@ -23,7 +23,7 @@ const Nabvar = () => {
 
                 </div>
                 <div className='lg:flex hidden justify-center items-center text-center border-solid border-2 border-blue-900 px-3 py-2 rounded-md gap-5 hover:cursor-pointer'>
-                    <img src="/assets/asset 1.svg" alt="" />
+                    <img className='bg-white rounded-lg' src="/assets/asset 1.svg" alt="" />
                     <a href="https://www.todesktop.com/electron" target='_blank'>
                         <button>Electron Developer</button>
                     </a>
