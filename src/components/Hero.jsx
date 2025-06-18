@@ -2,7 +2,7 @@ import React from 'react'
 
 const Hero = () => {
     return (
-        <div className='px-5 mt-9 flex flex-col justify-center items-start sm:items-center'>
+        <div className='h-screen px-5 flex flex-col justify-center items-start sm:items-center'>
             <div className='py-1 w-32 bg-yellow-100 flex justify-center items-center gap-2 text-center rounded-md shadow-md mb-8 hover:cursor-pointer hover:translate-x-1  transition-all duration-1000 hover:border-yellow-800'>
                 <p className='bg-yellow-400 h-2 w-2 rounded-full'></p>
                 <p>v0.28.0</p>
@@ -23,10 +23,10 @@ const Hero = () => {
                 </div>
             </div>
             <div className='mb-5 sm:max-w-[900px] sm:text-center'>
-                <h1 className='text-5xl md:text-7xl sm:text-6xl font-semibold mt-8 mb-6 sm:mb-[45px] sm:mt-9 '>Web app to dedktop app in minutes</h1>
+                <h1 className='text-5xl md:text-7xl sm:text-6xl font-semibold mt-2 mb-6 sm:mb-[45px] sm:mt-6 '>Web app to dedktop app in minutes</h1>
                 <p className='sm:max-w-[790px]  text-2xl font-normal  mt-4 sm:mt-9 mb-4 sm:text-center sm:ml-9 '>Take your web app codebase and transform it into a cross platform desktop app with native functionality.</p>
             </div>
-            <div className='flex justify-center gap-4 flex-col md:flex-row w-full'>
+            <div className='flex justify-center gap-4 flex-col md:flex-row w-full mb-[50px]'>
                 <a className='bg-blue-600 px-8 py-4 text-white text-center font-semibold rounded-md' href="#">
                     <p>Download now</p>
                 </a>
