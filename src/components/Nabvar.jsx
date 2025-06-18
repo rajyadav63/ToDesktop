@@ -4,7 +4,7 @@ const Nabvar = () => {
     const [isMenu, setIsMenu] = useState(false)
 
     return (
-        <div className='flex justify-between items-center text-center bg-blue-100 p-3'>
+        <div className='flex justify-between items-center text-center bg-blue-100 p-4'>
 
             <div>
                 <a className='flex justify-center items-center text-center gap-2' href="/">
