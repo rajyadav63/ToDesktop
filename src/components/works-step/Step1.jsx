@@ -10,14 +10,14 @@ const Step1 = () => {
                     <p className='ml-5 mr-5 lg:mt-[30px] lg:max-w-[550px]'>Copy and paste your web app url into ToDesktop. Customise your app design, app icon and window frame UI with no code.</p>
                     <div className='flex md:items-center gap-4 m-4 lg:mt-[25px]'>
                         <div className='w-60 flex flex-col gap-2 underline text-blue-600'>
-                            <a href="#">Multiple windows</a>
-                            <a href="#">Menubar/tray menus</a>
-                            <a href="#">Offline support</a>
+                            <a href="#"><span>✔️</span>Multiple windows</a>
+                            <a href="#"><span>✔️</span>Menubar/tray menus</a>
+                            <a href="#"><span>✔️</span>Offline support</a>
                         </div>
                         <div className='w-60 flex flex-col gap-2 underline text-blue-600'>
-                            <a href="#">Customizable menu</a>
-                            <a href="#">Lunch on startup</a>
-                            <a href="#">Tabs (Mac only)</a>
+                            <a href="#"><span>✔️</span>Customizable menu</a>
+                            <a href="#"><span>✔️</span>Lunch on startup</a>
+                            <a href="#"><span>✔️</span>Tabs (Mac only)</a>
                         </div>
                     </div>
                 </div>
