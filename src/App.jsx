@@ -11,6 +11,7 @@ function App() {
       <Nabvar />
       <Hero />
       <AppSlider />
+      <h1 className='text-4xl font-semibold  m-[40px]'>How it works</h1>
       <div className='h-[1000px]'></div>
     </>
   )
