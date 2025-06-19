@@ -1,6 +1,7 @@
 
 import './App.css'
 import AppSlider from './components/AppSlider'
+import CustomerStories from './components/CustomerStories'
 import Hero from './components/Hero'
 import Nabvar from './components/Nabvar'
 import Sliders from './components/Sliders'
@@ -24,6 +25,8 @@ function App() {
         the details</h1>
       <ToDesktopHandle />
       <Sliders />
+      <h1 className='text-5xl font-medium lg:font-semibold m-[20px] lg:ml-[100px] mt-[40px]'>Customer Stories</h1>
+      <CustomerStories />
       <div className='h-[1000px]'></div>
     </>
   )
