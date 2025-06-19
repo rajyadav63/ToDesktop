@@ -2,7 +2,7 @@ import React from 'react'
 
 const ToDesktopHandle = () => {
   return (
-    <div className='flex flex-col lg:flex-row m-8 gap-5'>
+    <div className='flex flex-col lg:flex-row ml-16 mr-16 gap-3'>
       <div className='lg:w-1/3'>
         <div className='bg-gray-200 border border-gray-400 flex flex-col justify-center items-center h-auto py-4 rounded-2xl mb-5'>
           <h1 className='text-2xl mb-1 font-semibold'>Native Notifications</h1>
