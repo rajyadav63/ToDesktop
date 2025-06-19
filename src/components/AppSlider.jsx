@@ -93,7 +93,7 @@ const AppSlider = () => {
 
                 </div>
                 {/* 3rd row */}
-                <div className='w-max flex gap-5 -translate-x-5'>
+                <div className='w-max flex gap-5 translate-x-5'>
                     <div className='h-[100px] w-[100px] border-2 border-blue-100 rounded-lg p-1 flex flex-col justify-center items-center text-center hover:bg-blue-700'>
                         <img className='h-[50px] w-[50px]' src="/assets/asset 11.png" />
                         <p className='font-normal'>Sunsama</p>
