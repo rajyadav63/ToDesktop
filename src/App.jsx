@@ -5,6 +5,7 @@ import CustomerStories from './components/CustomerStories'
 import DownloadBuilder from './components/DownloadBuilder'
 import Hero from './components/Hero'
 import Nabvar from './components/Nabvar'
+import Pricing from './components/Pricing'
 import Sliders from './components/Sliders'
 import ToDesktopHandle from './components/ToDesktopHandle'
 import Step1 from './components/works-step/Step1'
@@ -29,6 +30,8 @@ function App() {
       <h1 className='text-5xl font-medium lg:font-semibold m-[20px] lg:ml-[100px] mt-[40px]'>Customer Stories</h1>
       <CustomerStories />
       <DownloadBuilder />
+      <h1 className='max-w-[500px] lg:max-w-[700px]  text-5xl font-medium m-8 mt-24'>Choose a plan that fits your needs</h1>
+      <Pricing />
       <div className='h-[1000px]'></div>
     </>
   )
