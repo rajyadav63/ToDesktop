@@ -3,6 +3,7 @@ import './App.css'
 import AppSlider from './components/AppSlider'
 import CustomerStories from './components/CustomerStories'
 import DownloadBuilder from './components/DownloadBuilder'
+import Faq from './components/Faq'
 import Hero from './components/Hero'
 import Nabvar from './components/Nabvar'
 import Pricing from './components/Pricing'
@@ -34,6 +35,8 @@ function App() {
       <h1 className='max-w-[500px] lg:max-w-[700px]  text-5xl font-medium m-8 mt-24'>Choose a plan that fits your needs</h1>
       <Pricing />
       <SupportCard />
+      <h1 className='text-5xl font-medium lg:font-semibold m-[20px] lg:ml-[100px] mt-[40px]'>FAQs</h1>
+      <Faq />
       <div className='h-[1000px]'></div>
     </>
   )
