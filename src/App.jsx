@@ -2,6 +2,7 @@
 import './App.css'
 import AppSlider from './components/AppSlider'
 import CustomerStories from './components/CustomerStories'
+import DownloadBuilder from './components/DownloadBuilder'
 import Hero from './components/Hero'
 import Nabvar from './components/Nabvar'
 import Sliders from './components/Sliders'
@@ -27,6 +28,7 @@ function App() {
       <Sliders />
       <h1 className='text-5xl font-medium lg:font-semibold m-[20px] lg:ml-[100px] mt-[40px]'>Customer Stories</h1>
       <CustomerStories />
+      <DownloadBuilder />
       <div className='h-[1000px]'></div>
     </>
   )
