@@ -2,7 +2,7 @@ import React from 'react'
 
 const Pricing = () => {
     return (
-        <div className='m-8 flex flex-col gap-5'>
+        <div className='m-8 flex flex-col gap-5 lg:justtify-center lg:items-center '>
             <div className='mb-9 border border-gray-300 flex  gap-3 px-24 py-3 w-fit rounded-xl justify-around md:items-center md:justify-center'>
                 <p className='hover:bg-slate-300 px-3 py-2 cursor-pointer rounded-xl'>Monthly</p>
                 <p className='hover:bg-slate-300 px-1 py-2 cursor-pointer rounded-xl'>Yearly <span className='bg-blue-300 px-3 py-1 rounded-2xl'>-20%</span></p>
