@@ -3,7 +3,7 @@ import React from 'react'
 const Step1 = () => {
     return (
         <div className='m-5'>
-            <div className='flex flex-col lg:flex-row  border border-blue-200 rounded-lg h-screen lg:ml-[100px] lg:mr-[90px] lg:mt-9'>
+            <div className='flex flex-col lg:flex-row  border border-blue-200 rounded-lg h-auto lg:ml-[100px] lg:mr-[90px] lg:mt-9'>
                 <div className='flex flex-col  lg:max-w-[700px] lg:m-[40px]'>
                     <h1 className='m-5 border border-yellow-600 w-fit px-4 py-1 rounded-lg bg-yellow-100 font-medium'>Step1</h1>
                     <h3 className='ml-5 mt-2 mr-4 mb-2 text-4xl font-semibold sm:text-3xl lg:text-6xl lg:mt-[50px]'>Bootstrap straight from your web app</h3>
