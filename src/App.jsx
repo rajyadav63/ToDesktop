@@ -4,6 +4,7 @@ import AppSlider from './components/AppSlider'
 import CustomerStories from './components/CustomerStories'
 import DownloadBuilder from './components/DownloadBuilder'
 import Faq from './components/Faq'
+import Footer from './components/Footer'
 import Hero from './components/Hero'
 import Nabvar from './components/Nabvar'
 import Pricing from './components/Pricing'
@@ -37,7 +38,8 @@ function App() {
       <SupportCard />
       <h1 className='text-3xl lg:text-5xl text-center font-semibold lg:font-bold m-[20px] lg:ml-[100px] mt-[40px]'>Frequently Asked Questions</h1>
       <Faq />
-      <div className='h-[1000px]'></div>
+      <Footer />
+      <div className='h-[60vh]'></div>
     </>
   )
 }
