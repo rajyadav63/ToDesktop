@@ -9,6 +9,7 @@ import Hero from './components/Hero'
 import Nabvar from './components/Nabvar'
 import Pricing from './components/Pricing'
 import Sliders from './components/Sliders'
+import SubFooter from './components/SubFooter'
 import SupportCard from './components/SupportCard'
 import ToDesktopHandle from './components/ToDesktopHandle'
 import Step1 from './components/works-step/Step1'
@@ -39,7 +40,7 @@ function App() {
       <h1 className='text-3xl lg:text-5xl text-center font-semibold lg:font-bold m-[20px] lg:ml-[100px] mt-[40px]'>Frequently Asked Questions</h1>
       <Faq />
       <Footer />
-      <div className='h-[60vh]'></div>
+      <SubFooter />
     </>
   )
 }
