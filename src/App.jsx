@@ -7,8 +7,6 @@ import Faq from './components/Faq'
 import Footer from './components/Footer'
 import Hero from './components/Hero'
 import Nabvar from './components/Nabvar'
-// import PricingCards from './components/PricingCards'
-// import Pricing from './components/Pricing'
 import PricingCard from './components/PricingCard'
 import Sliders from './components/Sliders'
 import SubFooter from './components/SubFooter'
@@ -36,8 +34,7 @@ function App() {
       <h1 className='text-5xl font-medium lg:font-semibold m-[20px] lg:ml-[100px] mt-[40px]'>Customer Stories</h1>
       <CustomerStories />
       <DownloadBuilder />
-      <h1 className='max-w-[500px] lg:max-w-[700px]  text-5xl font-medium m-8 mt-24 lg:ml-16'>Choose a plan that fits your needs</h1>
-      {/* <Pricing /> */}
+      <h1 className='max-w-[550px] lg:max-w-[600px]  text-5xl font-medium m-8 mt-24 lg:ml-36 leading-normal'>Choose a plan that fits your needs</h1>
       <PricingCard className='h-[70vh]' />
       <SupportCard />
       <h1 className='text-3xl lg:text-5xl text-center font-semibold lg:font-bold m-[20px] lg:ml-[100px] mt-[40px]'>Frequently Asked Questions</h1>
