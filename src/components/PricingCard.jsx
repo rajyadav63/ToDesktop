@@ -9,6 +9,7 @@ const PricingCard = () => {
                     <div className='flex flex-col gap-5'>
                         <h1 className='text-3xl font-semibold'>Free</h1>
                         <p className='max-w-[320px]'>For personal use or testing your app before deploying to customers.</p>
+                        
                         <p className='uppercase'>Key Features</p>
                     </div>
                     <div className='mt-5'>
@@ -32,7 +33,7 @@ const PricingCard = () => {
                             </li>
                         </ul>
                     </div>
-                    <button className='text-primary border border-slate-400 rounded-lg px-28 py-2 mt-5 hover:border-primary'>Get Started</button>
+                    <button className='text-primary border border-slate-400 rounded-lg px-28 py-2 mt-16 hover:border-primary'>Get Started</button>
                 </div>
                 {/* second card */}
                 <div className='hover:bg-blue-50 border border-slate-300 py-9 px-8 rounded-2xl'>
